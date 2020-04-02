@@ -44,7 +44,7 @@ const renderHeaderSection = function renderHeaderSection(title : string, link : 
 
 const renderCategory = function renderCategory(item : Object, i : number, anchorVisible : boolean) {
   return (
-    <div className="item" key={`exp_item_${i}`}>
+    <div className={item.subtitle === 'Nomura' ? 'item-next-page' : 'item'} key={`exp_item_${i}`}>
       <div className="meta">
         <div className="upper-row">
           <h3 className="job-title">{item.title}</h3>

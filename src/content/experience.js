@@ -6,9 +6,24 @@ const experience = {
   description: null,
   list: [
     {
+      title: 'Senior Software Engineer',
+      subtitle: 'Arnia',
+      subtitleLink: 'https://www.arnia.com/',
+      date: 'March 2018 - Present',
+      tags: [
+        'Azure', 'Functions', 'ACR', 'AKS', 'AVM', 'Cosmos', 'LUIS', 'DynamoDB', 'EC2', 'NodeJS', 'Kotlin', 'Terraform',
+      ],
+      description: [
+        'Led team of 3 to create cluster based blockchain ledger platform. Developed features in NodeJS, Kotlin, NGiNX & ReactJS running on Azure VM & PostgresSQL with self-checkout driven cluster expansion via Terraform for customer nodes',
+        'Delivered serverless platform digitizing tasks of multi-tiered foundation with 50+ clients from brainstorming journeys, wireframes to coding. Platform was written in NodeJS & ReactJS on AWS S3, Lambda, DynamoDB with complete CI/CD pipeline',
+        'Managed stakeholders and developed Workplace bot as Level 1 support used by 250+ employees with NodeJS on Azure LUIS with AWS Lambda & DynamoDB. Added HR dashboard for human escalation, nominations & meeting room bookings',
+        'Delivered product leveraging capacitive touch point stamp to streamline customer engagement at lounges with serverless NodeJS & ReactJS on Azure Functions & Storage'
+      ]
+    },
+    {
       title: 'Cloud Software Engineer',
       subtitle: 'Cahootsy',
-      date: 'July 2017 - Present',
+      date: 'July 2017 - March 2018',
       tags: [
         'lambda',
         'sqs',
@@ -16,17 +31,19 @@ const experience = {
         'ecs',
         'nodejs',
         'elasticsearch',
+        'etl',
         'nlp',
       ],
       description: [
-        'Streamlined and replaced existing serial error prone five days long process by 90% through development of cloud native horizontally scalable system in NodeJS on AWS Lambda',
-        'Created multiple event driven AWS Lambda in conjunction with AWS ES, SQS, Docker ECS to provide fault tolerance, scalability and high availability of whole system',
-        'Used API.AI for NLP datasets to generate optimal targeted campaigns to reduce costs',
+        'Streamlined and replaced existing serial error prone five days long process by 90% through event driven ETL pipeline on ECS using ELK, SQS & S3 to provide fault tolerance & scalability of system. NLP datasets used to generate optimal targeted campaigns to reduce costs',
       ],
     },
     {
       title: 'Software Developer',
       subtitle: 'Citi',
+      subtitleLink: 'http://citi.com',
+      subtitleDetail: ' - Rates Pricing E-Trading Technology',
+      date: 'September 2016 - July 2017',
       tags: [
         'java',
         'spring',
@@ -37,16 +54,16 @@ const experience = {
       ],
       description: [
         'Consolidated streaming of pricing data to thousands of downstream systems by developing a real-time low latency asynchronous graph based distributed system in Java Spring that aggregates data from dozens of micro-services based on async events',
-        'Implemented generic functional test generator for Cucumber BDD of strategic logic that reduced testing and development time for global team',
-        'Developed Dockerized NodeJS application to improve development standards across company. Used Kubernetes to manage containers which scaled based on number of builds triggered company wide to handle load of parsing and placing data into Elasticsearch',
+        'Implemented generic functional test generator for Cucumber BDD of strategic logic that reduced average testing and development time for global team by 65%',
+        'Developed Dockerized NodeJS application to improve company wide standards. Used Kubernetes to scale based on global code builds to ETL data into ELK stack.',
       ],
-      subtitleLink: 'http://citi.com',
-      subtitleDetail: ' - Rates Pricing E-Trading Technology',
-      date: 'September 2016 - July 2017',
     },
     {
       title: 'Software Engineer',
       subtitle: 'Citi',
+      subtitleLink: 'http://citi.com',
+      subtitleDetail: ' - Futures E-Trading Technology',
+      date: 'September 2015 - September 2016',
       tags: [
         'java',
         'spring',
@@ -56,13 +73,10 @@ const experience = {
       ],
       description: [
         'Did fundamental architectural change to major project by replacing duplicate JSP pages with modular AngularJS & Mocha and flexible observer, decorator, adapter based Java server',
-        'Played key role in developing and deploying new critical business product which required me to produce in fast development cycles followed by multiple daily iterations with client Director for feedback and iterate on Java, JavaScript, HTML5 and CSS3 designs',
+        'Played key role in managing, developing and deploying new critical business product using Java, AngularJS with daily Director meetings',
         'Established new standards on departmental level by developing Java & JavaScript services that I linked to all existing projects as dependency from common Futures repository',
         'Converted all Java/JS codebase to Unix cloud by refactoring to microservice paradigm',
       ],
-      subtitleLink: 'http://citi.com',
-      subtitleDetail: ' - Futures E-Trading Technology',
-      date: 'September 2015 - September 2016',
     },
     {
       title: 'Software Engineer',
@@ -72,8 +86,7 @@ const experience = {
         'spring',
       ],
       description: [
-        'Reduced team load by 95% on tasks through automating processes via Python and Java',
-        'Designed proof of concept with agile user stories and class diagrams for company asset lifecycle management tool through global stakeholder meetings and agile iterations which got interest, involvement and approval of ED’s and CTO',
+        'Reduced team load by 95% on majority of daily tasks via Python and Java automation'
       ],
       subtitleLink: 'http://nomura.com',
       subtitleDetail: ' - Web Services Technologies',

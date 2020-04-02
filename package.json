@@ -13,9 +13,9 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom --coverage",
     "test:watch": "node scripts/test.js --env=jsdom --coverage --watch",
-    "precommit": "CI=test npm test && npm run flow && npm run lint",
+    "aprecommit": "CI=test npm test && npm run flow && npm run lint",
     "commit": "git-cz",
-    "prepush": "CI=test npm test",
+    "aprepush": "CI=test npm test",
     "flow": "flow",
     "lint": "eslint . --fix",
     "report-coverage": "cat ./coverage/lcov.info | codecov"
@@ -155,6 +155,7 @@
     "parser": "babel-eslint",
     "extends": "airbnb",
     "rules": {
+      "linebreak-style": "off",
       "react/require-default-props": "off",
       "max-len": ["error", { "code": 160 }],
       "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],

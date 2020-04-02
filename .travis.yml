@@ -13,15 +13,12 @@ env:
 before_script:
   - greenkeeper-lockfile-update
 script:
-  - npm test
   - npm run build
 after_script:
   - greenkeeper-lockfile-upload
 after_success:
-  - npm run report-coverage
   - git config --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
   - git fetch --tags
-  - npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

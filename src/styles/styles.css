@@ -134,6 +134,7 @@ button {
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
 }
+
 .sidebar-wrapper .education-container .item:last-child {
   margin-bottom: 0;
 }
@@ -180,10 +181,10 @@ button {
 }
 
 .sidebar-wrapper .skills-container {
-  margin-top: 240px;
+  margin-top: 130px;
 }
 
-.sidebar-wrapper .skills-container .lang-desc {
+.sidebar-wrapper.skills-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }
 .sidebar-wrapper .skills-list {
@@ -235,7 +236,12 @@ button {
   margin-top: 20px;
 }
 .main-wrapper .category-section .item {
-  margin-bottom: 35px;
+  margin-bottom: 29px;
+}
+
+.main-wrapper .category-section .item-next-page {
+  margin-top: 100px;
+  margin-bottom: 15px;
 }
 
 .main-wrapper .upper-row {
@@ -301,7 +307,7 @@ button {
 }
 
 .pageSpacing {
-  margin-top: 140px
+  margin-top: 50px
 }
 
 .main-wrapper .keywords {

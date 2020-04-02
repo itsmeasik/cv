@@ -7,7 +7,7 @@ const sidebar = {
   },
   contact: {
     email: { value: 'cristian.boarna@gmail.com', icon: 'far fa-envelope' },
-    phone: { value: '+44 778 4333 706', icon: 'fas fa-phone' },
+    phone: { value: '+40 775 263 532', icon: 'fas fa-phone' },
     website: { value: 'crisboarna.com', icon: 'fas fa-globe' },
     linkedin: { value: 'linkedin.com/crisboarna', icon: 'fab fa-linkedin' },
     github: { value: 'github.com/crisboarna', icon: 'fab fa-github' },
@@ -17,6 +17,7 @@ const sidebar = {
     title: 'Certifications',
     list: [
       { name: 'AWS Certified Solutions Architect', icon: 'fab fa-aws', description: 'Amazon Web Services - 2018' },
+      { name: 'Corda Certified Blockchain Developer', icon: 'fab fa-aws', description: 'R3 Corda - 2019' },
       { name: 'Cambridge English: Proficiency', icon: 'fab fa-aws', description: 'University of Cambridge - 2010' },
     ],
   },
@@ -35,28 +36,41 @@ const sidebar = {
     title: 'Skills',
     list: {
       languages: [
+        'NodeJs',
+        'Kotlin',
         'Java',
-        'Javascript',
         'C#',
         'Python',
         'HTML5',
-        'Bash',
         'Scala',
       ],
+      clouds: [
+        'Azure',
+        'AWS',
+        'Google Cloud'
+      ],
+      iaC: [
+        'Terraform',
+        'CloudFormation'
+      ],
+      configuration: [
+        'Ansible',
+        'Packer',
+        'Chef'
+      ],
       frameworks: [
-        'NodeJS',
         'ReactJS',
+        'Flutter',
+        'ExpressJS',
         'Spring',
         'Akka',
         'OpenCV',
         'ReactNative',
       ],
       solutions: [
-        'AWS',
         'Docker',
-        'ELK',
-        'Git',
         'Kubernetes',
+        'ELK',
         'Electron',
         'MongoDB',
       ],
